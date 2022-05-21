@@ -100,6 +100,10 @@ footer {
   font-size: 125%;
 }
 
+.image-container{
+  display: flex;
+}
+
 .image-container img {
   vertical-align: top;
 }
@@ -123,6 +127,10 @@ footer {
 .tigers {
   background-color: #0b3c49;
   color: #f0e100;
+}
+
+.tigers h2, h3{
+  color: white;
 }
 
 .giraffe {
