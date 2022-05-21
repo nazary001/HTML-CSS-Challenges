@@ -102,7 +102,18 @@ footer {
 
 .image-container img {
   vertical-align: top;
-  border: 5px solid #747c92;
+}
+
+.image-container img:nth-child(1){
+  border: 5px solid rgb(3, 3, 3);
+}
+
+.image-container img:nth-child(2){
+  border: 5px solid rgb(216, 13, 13);
+}
+
+.image-container img:nth-child(3){
+  border: 5px solid rgb(36, 219, 29);
 }
 
 .image-container img:first-of-type {
